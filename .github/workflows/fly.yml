@@ -10,7 +10,7 @@ jobs:
     name: Docker test
     runs-on: ubuntu-latest
     steps: 
-      - uses: docker -v
+      - run: docker -v
 
   # deploy:
   #   name: Deploy app
